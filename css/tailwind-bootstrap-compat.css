@@ -1,0 +1,2 @@
+/* Tailwind's `collapse` utility sets visibility: collapse and conflicts with Bootstrap's navbar. */
+.navbar-collapse.collapse,.navbar-collapse.collapsing{visibility:visible!important}@media(min-width:992px){.navbar-expand-lg .navbar-collapse.collapse{display:flex!important;visibility:visible!important}}
